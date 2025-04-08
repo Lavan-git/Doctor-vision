@@ -44,7 +44,7 @@ def query_groq(question):
         return chat_completion.choices[0].message.content
 
     # If the question is not valid, return a rejection message
-    return "I only answer questions related to water and sanitation infrastructure pricing."
+    return "I only answer questions related to different diseases and their symptoms."
 
 # Routes to Render Pages
   # Render index.html as the homepage
